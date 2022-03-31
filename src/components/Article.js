@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 
 function makeEmojiList(minutes) {
@@ -24,6 +25,19 @@ function Article({ title, date = "January 1, 1970", preview, minutes }) {
       <p>{preview}</p>
     </article>
   );
+=======
+import React from "React";
+
+function Article({title, date="January 1, 1970"}){
+
+
+    return (
+        <article>
+            <h3>{title}</h3>
+            <small>{date}</small>
+        </article>
+    )
+>>>>>>> 0f034fd5bcbddded428b24dd2062cdd60a70c1ef
 }
 
 export default Article;

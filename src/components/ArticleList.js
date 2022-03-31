@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import Article from "./Article";
 
@@ -12,6 +13,17 @@ function ArticleList({ posts }) {
     />
   ));
   return <main>{articles}</main>;
+=======
+import React from "React";
+
+function ArticleList(articles){
+
+    return (
+        <main>
+            {}
+        </main>
+    )
+>>>>>>> 0f034fd5bcbddded428b24dd2062cdd60a70c1ef
 }
 
 export default ArticleList;
